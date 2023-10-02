@@ -14,7 +14,9 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Gapps
+# Matrixx
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_MAINTAINER := TechMatrixx
 WITH_GAPPS := true
 
 PRODUCT_NAME := lineage_lemonadep
