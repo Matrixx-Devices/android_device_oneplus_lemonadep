@@ -815,6 +815,7 @@ odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 odm/lib/libAlgoInterface.so
 odm/lib/libdehaze.so
+odm/lib/libfastov_dsp.so
 odm/lib/libDeVIS.so
 odm/lib/libnightvision.so
 odm/lib/libVDBlurlessAPI_v2.so
