@@ -720,7 +720,6 @@ odm/lib64/libcdm_metrics_protos.so
 odm/lib64/libcdm_protos.so
 odm/lib64/libcom.oplus.calidatacontainer.so
 odm/lib64/libCOppLceTonemapAPI.so
-odm/lib64/libc++_shared.so
 odm/lib64/libdehaze.so
 odm/lib64/libDeVIS.so
 odm/lib64/libdualcam_image_optical_zoom.so
@@ -815,7 +814,6 @@ odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 odm/lib/libAlgoInterface.so
-odm/lib/libc++_shared.so
 odm/lib/libdehaze.so
 odm/lib/libDeVIS.so
 odm/lib/libnightvision.so
