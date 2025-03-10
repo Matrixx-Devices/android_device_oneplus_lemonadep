@@ -30,3 +30,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus9Pro \
     SystemDevice=OnePlus9Pro \
     SystemName=OnePlus9Pro
+
+# Matrixx
+MATRIXX_BATTERY := 4500mAh
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_CHIPSET := SM8350
+MATRIXX_DISPLAY := 1440x3216
+WITH_GMS := true
