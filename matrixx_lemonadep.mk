@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Matrixx stuff.
+$(call inherit-product, vendor/matrixx/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonadep
+PRODUCT_NAME := matrixx_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -30,3 +30,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus9Pro \
     SystemDevice=OnePlus9Pro \
     SystemName=OnePlus9Pro
+
+#Matrixx Stuff
+WITH_GMS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+HBM_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
+MATRIXX_MAINTAINER := Mrick343
+TARGET_CUSTOM_UDFPS := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+SURFACE_FLINGER_BOOST := true
+TARGET_OPTIMIZED_DEXOPT := true
+USE_REALITY_ENGINE := true
